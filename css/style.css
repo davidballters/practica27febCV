@@ -1,16 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600;700&family=Poppins:ital,wght@0,400;0,700;1,300;1,700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+
+.container {
+  max-width: 1200px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body{
+  font-family:"Oswald" sans-serif;
+  /* background-color:rgb(68, 111, 229) ; */
+}
+
 header{
+  background-image: url(../imgs/fondo.png);
+  background-repeat: repeat;
+  background-size: cover;
   text-align: center;
 }
 
+header img {
+  margin-top: 30px;
+}
 
 h1,h2 {
   padding-left: 10px;
+  letter-spacing: 8px;
   background-color: grey;
   color: rgb(0,86,119,1);
 }
 
 h1 {
   font-size: 35px;
+  font-weight: 700;
 }
 
 section > img {
@@ -18,17 +42,29 @@ section > img {
 }
 
 footer{
-  background-color: rgb(0,86,119,1);
+  height:100px;
+  background-color: grey;
   font-weight: 700;
   text-align: center;
 }
 
 footer > span  {
+  display: block;
+  padding-top: 20px;
   margin-right: 10px;
   color: white;
 }
 
-footer > a {
-  margin-right: 10px;
+.icon-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-self: center;
+  gap: 20px;
+}
+
+.icon-footer a > img {
+  width: 30px;
+  height:34px ;
 }
 
